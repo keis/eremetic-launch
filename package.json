@@ -1,6 +1,6 @@
 {
   "name": "eremetic-launch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Command line tool to launch tasks on eremetic",
   "main": "index.js",
   "bin": {
