@@ -1,0 +1,31 @@
+{
+  "name": "eremetic-launch",
+  "version": "0.0.0",
+  "description": "Command line tool to launch tasks on eremetic",
+  "main": "index.js",
+  "bin": {
+    "el": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "eremetic",
+    "mesos",
+    "one-off",
+    "cli"
+  ],
+  "author": "David Keijser <keijser@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^10.1.3",
+    "eremetic-task": "^1.0.0",
+    "espoll": "^1.2.0",
+    "meow": "^3.7.0",
+    "through2": "^2.0.1"
+  }
+}
